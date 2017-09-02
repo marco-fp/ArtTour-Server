@@ -1,0 +1,22 @@
+{
+  "name": "arttour-server",
+  "version": "1.0.0",
+  "description": "ArtTour app - server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marco-fp/ArtTour-Server.git"
+  },
+  "author": "Marco Fernandez Pranno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marco-fp/ArtTour-Server/issues"
+  },
+  "homepage": "https://github.com/marco-fp/ArtTour-Server#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
