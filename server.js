@@ -27,6 +27,6 @@ app.get('/', function(req, res) {
   res.send({ answer: 'Hello from Art Tour Server'});
 });
 
-app.listen(8080, function () {
+app.listen(process.env.PORT || 8080, function () {
   console.log('Example app listening on port 8080!');
 });
