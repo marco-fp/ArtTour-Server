@@ -23,6 +23,10 @@ app.get('/info', function (req, res) {
   }
 });
 
-app.listen(8080, function () {
+app.get('/', function(req, res) {
+  res.send('Hello from Art Tour Server');
+});
+
+app.listen(80, function () {
   console.log('Example app listening on port 8080!');
 });
